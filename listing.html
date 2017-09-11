@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Music</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a class="navbar-brand" href="#">Brand</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-center">
+                            <li class="active"><a href="#">APPS <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">CHARTS</a></li>
+                            <li><a href="#">MY MUZI</a></li>
+                            <li><a href="#">MY MUSIC</a></li>
+                            <li><a href="#">MORE</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" class="signin_button">Sign In</a></li>
+                            <li><a href="#" class="signup_button">Create Account</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="searchbar">
+            <form>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="form-group">
+                                <label for="exampleInput" class="sr-only">Email address</label>
+                                <input type="text" class="form-control" id="exampleInput" placeholder="Search for songs,artists,playlist and more"> </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-search"></span>Search</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <div class="upcoming_trackbar">
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="exampleInputName2" class="sr-only">Name</label>
+                            <select class="form-control">
+                                <option selected>New &amp; Hot</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="exampleInputEmail2" class="sr-only">Email</label>
+                            <select class="form-control">
+                                <option selected>Classical</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="upcoming_text">Up-and-coming tracks in Classical on Muzi</div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="track_listing">
+                    <table class="table">
+                        <tr class="hidden-xs">
+                            <th class="serialno text-center">#</th>
+                            <th>
+                                <div class="track_text pull-left">Track</div>
+                                <div class="track_text pull-right">Posted Date</div>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="text-center hidden-xs">1</td>
+                            <td>
+                                <div class="track_cont">
+                                    <div class="track_thumb">
+                                        <div class="track_playbtn">
+                                            <a href=""><img src="images/track_playbtn.png" alt="Track Play Button" /></a>
+                                        </div> <img src="images/ishq_thumb.jpg" alt="Ishq" /> </div>
+                                    <div class="track_detail_cont">
+                                        <div class="track_title">Main Agar (From "Tubelight")</div>
+                                        <div class="track_detail">Bendy and the Ink Machine - Gospel of Dismay (Piano Version) DAGames </div>
+                                    </div>
+                                    <div class="track_date">6 days ago</div>
+                                    <div class="track_icons">
+                                        <a href=""><img src="images/track_icon1.jpg" alt="Track Icon 1" /></a>
+                                        <a href=""><img src="images/track_icon2.jpg" alt="Track Icon 2" /></a>
+                                        <a href=""><img src="images/track_icon3.jpg" alt="Track Icon 3" /></a>
+                                        <a href=""><img src="images/track_icon4.jpg" alt="Track Icon 4" /></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center hidden-xs">2</td>
+                            <td>
+                                <div class="track_cont">
+                                    <div class="track_thumb">
+                                        <div class="track_playbtn">
+                                            <a href=""><img src="images/track_playbtn.png" alt="Track Play Button" /></a>
+                                        </div> <img src="images/main_agar_thumb.jpg" alt="Main Agar" /> </div>
+                                    <div class="track_detail_cont">
+                                        <div class="track_title">Main Agar (From "Tubelight")</div>
+                                        <div class="track_detail">Bendy and the Ink Machine - Gospel of Dismay (Piano Version) DAGames </div>
+                                    </div>
+                                    <div class="track_date">6 days ago</div>
+                                    <div class="track_icons">
+                                        <a href=""><img src="images/track_icon1.jpg" alt="Track Icon 1" /></a>
+                                        <a href=""><img src="images/track_icon2.jpg" alt="Track Icon 2" /></a>
+                                        <a href=""><img src="images/track_icon3.jpg" alt="Track Icon 3" /></a>
+                                        <a href=""><img src="images/track_icon4.jpg" alt="Track Icon 4" /></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center hidden-xs">3</td>
+                            <td>
+                                <div class="track_cont">
+                                    <div class="track_thumb">
+                                        <div class="track_playbtn">
+                                            <a href=""><img src="images/track_playbtn.png" alt="Track Play Button" /></a>
+                                        </div> <img src="images/humnava_thumb.jpg" alt="Humnava" /> </div>
+                                    <div class="track_detail_cont">
+                                        <div class="track_title">Main Agar (From "Tubelight")</div>
+                                        <div class="track_detail">Bendy and the Ink Machine - Gospel of Dismay (Piano Version) DAGames </div>
+                                    </div>
+                                    <div class="track_date">6 days ago</div>
+                                    <div class="track_icons">
+                                        <a href=""><img src="images/track_icon1.jpg" alt="Track Icon 1" /></a>
+                                        <a href=""><img src="images/track_icon2.jpg" alt="Track Icon 2" /></a>
+                                        <a href=""><img src="images/track_icon3.jpg" alt="Track Icon 3" /></a>
+                                        <a href=""><img src="images/track_icon4.jpg" alt="Track Icon 4" /></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center hidden-xs">4</td>
+                            <td>
+                                <div class="track_cont">
+                                    <div class="track_thumb">
+                                        <div class="track_playbtn">
+                                            <a href=""><img src="images/track_playbtn.png" alt="Track Play Button" /></a>
+                                        </div> <img src="images/humnava_thumb.jpg" alt="Humnava" /> </div>
+                                    <div class="track_detail_cont">
+                                        <div class="track_title">Main Agar (From "Tubelight")</div>
+                                        <div class="track_detail">Bendy and the Ink Machine - Gospel of Dismay (Piano Version) DAGames </div>
+                                    </div>
+                                    <div class="track_date">6 days ago</div>
+                                    <div class="track_icons">
+                                        <a href=""><img src="images/track_icon1.jpg" alt="Track Icon 1" /></a>
+                                        <a href=""><img src="images/track_icon2.jpg" alt="Track Icon 2" /></a>
+                                        <a href=""><img src="images/track_icon3.jpg" alt="Track Icon 3" /></a>
+                                        <a href=""><img src="images/track_icon4.jpg" alt="Track Icon 4" /></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-center hidden-xs">5</td>
+                            <td>
+                                <div class="track_cont">
+                                    <div class="track_thumb">
+                                        <div class="track_playbtn">
+                                            <a href=""><img src="images/track_playbtn.png" alt="Track Play Button" /></a>
+                                        </div> <img src="images/humnava_thumb.jpg" alt="Humnava" /> </div>
+                                    <div class="track_detail_cont">
+                                        <div class="track_title">Main Agar (From "Tubelight")</div>
+                                        <div class="track_detail">Bendy and the Ink Machine - Gospel of Dismay (Piano Version) DAGames </div>
+                                    </div>
+                                    <div class="track_date">6 days ago</div>
+                                    <div class="track_icons">
+                                        <a href=""><img src="images/track_icon1.jpg" alt="Track Icon 1" /></a>
+                                        <a href=""><img src="images/track_icon2.jpg" alt="Track Icon 2" /></a>
+                                        <a href=""><img src="images/track_icon3.jpg" alt="Track Icon 3" /></a>
+                                        <a href=""><img src="images/track_icon4.jpg" alt="Track Icon 4" /></a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="last_update">Last updated 3 day ago</div>
+                </div>
+            </div>
+            <div class="col-md-3 listing_sidebar">
+                <div class="muzi_banner_cont"> <img src="images/muzi_banner.jpg" alt="Muzi Banner" /> </div>
+                <div class="listing_download_app">Download The App</div>
+                <div class="listing_googlebtn">
+                    <a href=""><img src="images/google_play_button.jpg" alt="Google Play Store" /></a>
+                </div>
+                <hr />
+                <div class="legal_privacy">Legal - Privacy - Cookies - Imprint - Popular searches
+                    <br />Language: English (US)</div>
+            </div>
+        </div>
+    </div>
+    <div class="player_cont">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9"> Player Container </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="footer_title">Top Singers</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Nucleya</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Badshah</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Mohammed Rafi</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Udit Narayan</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">The Chainsmokers</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Arijit Singh</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Justin Bieber</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Jagjit Singh</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Ed Sheeran</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Neha Kakkar</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Sanam Puri</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Armaan Malik</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Coldplay</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Raftaar</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Sia</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Diljit Dosanjh</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_title">Top Actors</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Shah Rukh Khan</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Deepika Padukone</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Salman Khan</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Varun Dhawan</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Alia Bhatt</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Ranbir Kapoor</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Anushka Sharma</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Shahid Kapoor</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Sunny Leone</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Aishwarya Rai</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Amitabh Bachchan</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Priyanka Chopra</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Katrina Kaif</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Allu Arjun</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Siddharth</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Tamannaah</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Tamannaah</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_title">Languages</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Hindi</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">English</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Tamil</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Telugu</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Punjabi</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Marathi</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Gujarati</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_title">Business</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Artist</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Brand</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Press</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_title">Brands</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">About</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Brand Guidelines</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Career</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_title">Follow Us Online</div>
+                    <div class="top_singer_list">
+                        <ul class="list-unstyled">
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Twitter</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Facebook</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Youtube</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Google+</a></li>
+                            <li><span class="glyphicon glyphicon-triangle-right"></span><a href="">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="music_sign"><img src="images/music_sign.png" alt="Music Sign" /></div>
+                    <div class="thanks_listening"> Thanks for listening. Now join in. <span class="save_track">Save tracks, follow artists and build playlists. All for free.</span> </div>
+                    <div class="creat_account"><a href="">Create Account</a></div>
+                    <div class="already_account">Already have an account? <a href="">Sing In</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright_text">Copyright &copy; 2017 Design &amp; Develop By: Muzi</div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
